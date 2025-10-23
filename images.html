@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <title>Google - Vyhledávání obrázků</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top-links">
+      <a href="index.html">Vyhledávání</a>
+      <a href="advanced.html">Pokročilé vyhledávání</a>
+    </div>
+
+    <div class="search-card">
+      <div class="logo">Google Obrázky</div>
+
+      <form class="search-form image-form" action="https://www.google.com/search" method="get">
+        <input class="search-input" type="text" name="q" placeholder="Hledat obrázky..." aria-label="Hledat obrázky">
+        <input type="hidden" name="tbm" value="isch">
+        <div class="buttons">
+          <input class="btn btn-primary" type="submit" value="Vyhledat Googlem">
+        </div>
+      </form>
+
+      <div class="small">Tento formulář přidává parametr <code>tbm=isch</code>, který zobrazí výsledky obrázků.</div>
+    </div>
+  </div>
+</body>
+</html>

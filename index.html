@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <title>Google - Vyhledávání</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top-links">
+      <a href="images.html">Obrázky</a>
+      <a href="advanced.html">Pokročilé vyhledávání</a>
+    </div>
+
+    <div class="search-card" role="main" aria-labelledby="logo">
+      <div id="logo" class="logo">Google</div>
+
+      <form class="search-form" action="https://www.google.com/search" method="get">
+        <input class="search-input" type="text" name="q" placeholder="Zadej, co chceš hledat..." aria-label="Hledat">
+        <div class="buttons">
+          <input class="btn btn-search" type="submit" value="Hledat na Googlu">
+          <input class="btn btn-primary" type="submit" name="btnI" value="Zkusím štěstí">
+        </div>
+      </form>
+
+      <div class="small">Tento formulář odesílá dotaz přímo na Google.</div>
+    </div>
+  </div>
+</body>
+</html>

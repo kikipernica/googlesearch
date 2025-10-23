@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <title>Google - Pokročilé vyhledávání</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top-links">
+      <a href="index.html">Vyhledávání</a>
+      <a href="images.html">Obrázky</a>
+    </div>
+
+    <div class="advanced-card">
+      <div class="logo">Pokročilé vyhledávání</div>
+
+      <form action="https://www.google.com/search" method="get">
+        <div class="adv-field">
+          <label for="as_q">Obsahuje všechna tato slova:</label>
+          <input id="as_q" name="as_q" type="text" placeholder="např. počítač programování">
+        </div>
+
+        <div class="adv-field">
+          <label for="as_epq">Obsahuje přesně tuto frázi:</label>
+          <input id="as_epq" name="as_epq" type="text" placeholder="např. 'web design'">
+        </div>
+
+        <div class="adv-field">
+          <label for="as_oq">Obsahuje některé z těchto slov:</label>
+          <input id="as_oq" name="as_oq" type="text" placeholder="odděluj mezerou: css html js">
+        </div>
+
+        <div class="adv-field">
+          <label for="as_eq">Nevyskytují se tato slova:</label>
+          <input id="as_eq" name="as_eq" type="text" placeholder="slova, která chceš vyloučit">
+        </div>
+
+        <div class="adv-actions">
+          <input class="btn btn-primary" type="submit" value="Vyhledat">
+          <a class="btn btn-search" href="index.html">Zrušit</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
